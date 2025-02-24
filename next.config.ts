@@ -4,8 +4,9 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/portfolio",
   assetPrefix: "/portfolio/",
+
   images: {
-    unoptimized: true,
+    unoptimized: true, // Ensure Next.js images load properly
   },
 };
 
