@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "React",
+        "description": "A JavaScript library for building user interfaces, allowing the creation of interactive UIs and reusable components.",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+    },
+    {
+        "id": 2,
+        "name": "Java",
+        "description": "A high-level, object-oriented programming language used for building robust applications across various platforms.",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+    },
+    {
+        "id": 3,
+        "name": "Next.js",
+        "description": "A React-based framework for building fast, SEO-friendly web applications with server-side rendering capabilities.",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+    },
+    {
+        "id": 4,
+        "name": "HTML",
+        "description": "The standard markup language for creating web pages, providing structure and layout for web content.",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+    },
+    {
+        "id": 5,
+        "name": "CSS",
+        "description": "A style sheet language used to describe the presentation of a document written in HTML or XML, controlling layout and design.",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+    },
+    {
+        "id": 6,
+        "name": "JavaScript",
+        "description": "A versatile programming language primarily used in web development to add interactive features to websites.",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+    },
+    {
+        "id": 7,
+        "name": "Node.js",
+        "description": "A JavaScript runtime built on Chrome's V8 engine, allowing developers to build scalable server-side applications.",
+        "logo": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+    }
+]

@@ -1,0 +1,223 @@
+/* General Styles for All Screen Sizes */
+.navbar-container {
+    width: 100%;
+    background-color: #f7fafc;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.containersecond {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+/* Hamburger Icon (Visible Only on Mobile) */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.hamburger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #4a5568;
+    transition: all 0.3s ease;
+}
+
+/* Navbar Links */
+.navbar-links {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-links .nav-link {
+    color: #4a5568;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1rem;
+}
+.navbar-brand:hover{
+    color: #4299e1;
+}
+.navbar-links .nav-link:hover {
+    color: #4299e1;
+}
+
+/* Search Form */
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-input {
+    padding: 8px 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+    box-shadow: 0 0 0 2px #4299e1;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: #48bb78;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #38a169;
+}
+
+/* Styles for Small Screens (Mobile) */
+@media (max-width: 805px) {
+    .nav-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .uppercontent {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #2d3748;
+        text-decoration: none;
+    }
+
+    /* Hamburger Icon (Visible on Mobile) */
+    .hamburger {
+        display: flex;
+    }
+
+    /* Navbar Links - Hidden by Default on Mobile */
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 16px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links .nav-link {
+        color: #4a5568;
+        margin-bottom: 8px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .navbar-links .nav-link:hover {
+        color: #4299e1;
+    }
+
+    /* Search Form */
+    .search-form {
+        display: flex;
+        width: 100%;
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .search-input {
+        flex-grow: 1;
+        padding: 8px 12px;
+    }
+}
+
+/* Styles for Medium and Large Screens (Tablets and Desktops) */
+@media (min-width: 910px) {
+    .hamburger {
+        display: none;
+    }
+
+    .navbar-links {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .navbar-links .nav-link {
+        color: #4a5568;
+        margin-right: 16px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .navbar-links .nav-link:hover {
+        color: #4299e1;
+    }
+
+    .search-form {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .search-input {
+        padding: 8px 12px;
+        border: 1px solid #e2e8f0;
+        border-radius: 4px;
+    }
+
+    .search-button {
+        padding: 8px 16px;
+        background-color: #48bb78;
+        color: white;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .search-button:hover {
+        background-color: #38a169;
+    }
+}

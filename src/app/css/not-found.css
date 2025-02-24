@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.error{
+    background-image: url(./images/not-found.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+    height: 100vh;
+    margin: 0px;
+    filter: hue-rotate(25deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titlediv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 75px;
+    color: white;
+}   
+.titledescription{
+    font-size: 25px;
+    color: white;
+}
+.buttondiv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.linkbutton{
+    font-size: 25px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 4px;
+    color: black;
+}
+.errordiv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.spanerror{
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,84 @@
+section {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+.maindiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.wave {
+  display: inline-block;
+  animation: wave-animation 1s infinite;
+}
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+h1 {
+  font-size: 3em; /* Adjust as needed */
+}
+
+h4 {
+  font-size: 2em; /* Adjust as needed */
+}
+.p1{
+    font-size: 1.3em;
+}
+.cursor {
+  display: inline-block;
+  animation: blink 0.5s step-end infinite; /* Cursor blinking effect */
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.textdisplay{
+    color:blueviolet;
+}
+.image{
+    background-image: url(./images/codingimage.jpg);
+    height: 500px;
+    width:800px;
+}
+.firstdiv{
+    margin: 10px;
+}
+.seconddiv{
+    margin: 10px;
+}

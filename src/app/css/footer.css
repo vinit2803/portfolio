@@ -1,0 +1,62 @@
+/* Footer main container */
+.fmaindiv {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+/* Footer text */
+.ffirstdiv {
+    font-size: 14px;
+}
+
+/* Social media container */
+.fseconddiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fseconddiv1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fseconddiv2 {
+    margin: 0px 2px;
+    transition: color 0.3s ease;
+}
+
+
+/* Standard icon size */
+.fseconddiv2 .MuiSvgIcon-root {
+    font-size: 24px; /* Adjust size as needed */
+    width: 24px;
+    height: 24px;
+}
+
+/* Individual icon hover colors */
+.instagram-icon:hover {
+    color: #e1306c; /* Instagram */
+}
+
+.x-icon:hover {
+    color: #1da1f2; /* X (formerly Twitter) */
+}
+
+.linkedin-icon:hover {
+    color: #0077b5; /* LinkedIn */
+}
+
+.facebook-icon:hover {
+    color: #1877f2; /* Facebook */
+}
