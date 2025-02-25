@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   assetPrefix: "/portfolio/",
 
   images: {
-    unoptimized: true, // Ensure Next.js images load properly
+    unoptimized: true, // Fix image paths in static export
   },
 };
 
